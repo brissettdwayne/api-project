@@ -17,3 +17,23 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 }
+/*Custom Css*/
+.header {
+	text-align: center;
+}
+.header > h1 {
+	font-size: 50px;
+}
+.header > p {
+	margin-right: 110px;
+	margin-left: 110px;
+}
+#search-term, #search-results {
+	margin-right: 110px;
+	margin-left: 110px;
+	text-align: center;
+	margin-top: 30px;
+}
+#search-results {
+	border: 1px solid;
+}

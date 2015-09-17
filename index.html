@@ -3,11 +3,23 @@
     <head>
         <meta charset="UTF-8">
         <title></title>
-		<link rel="stylesheet" href="styles/style.css"/> 
+		<link rel="stylesheet" href="css/style.css"/> 
         <script src="http://code.jquery.com/jquery.min.js"></script>
 		<script src="js/app.js"></script>
     </head>
     <body>
-        
+        <header class="header">
+            <h1>Movie Titles!</h1>
+            <img src="popcorn-box-icon.jpg" style="width:214px;height:250px;">
+            <p>Search for your favorite movies old or new! Entering in a few keywords you can find comedies, horrors, romances, and more!</p>
+        </header>
+        <section>
+            <form id="search-term">
+            <input type="text" id="query" placeholder="e.g., Superman Returns">
+            <button>Submit</button>
+            </form>
+            <div id="search-results">
+            </div>
+        </section>
     </body>
 </html>
